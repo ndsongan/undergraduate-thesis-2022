@@ -49,7 +49,7 @@ def regression(S, test_size=0.2, mode='linear', degree=1, k_th=1):
     return reg, r2_score, rmse
 
 if __name__ == '__main__':
-    S = read_data(filename='data/SCA_test.csv', scaling=DATA_SCALING)[:, -100:]
+    S = read_data(filename='SCA_example.csv', scaling=DATA_SCALING)[:, -100:]
     reg, r2_score, rmse = regression(
         S,
         test_size=0.2,
