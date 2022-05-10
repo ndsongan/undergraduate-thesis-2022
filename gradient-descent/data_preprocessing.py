@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
-file_name = 'data/SCA_example.csv'
+file_name = 'SCA_example.csv'
 test_name = 'testy_example_thesis.csv'
 
 def read_data(filename = file_name, scaling=1):
